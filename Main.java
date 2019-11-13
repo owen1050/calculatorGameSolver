@@ -28,7 +28,6 @@ class Main {
     String[] moves = new String[numOfWays];
     for (int i = 0; i < numOfWays; i++) {
       moves[i] = Integer.toString(i, nof);
-      System.out.println(moves[i]);
       while (moves[i].length() < m) {
         moves[i] = "0" + moves[i];
       }
